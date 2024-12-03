@@ -12,3 +12,18 @@
 
 ## Solana Explore
 <img width="864" alt="sol-explorer" src="https://github.com/user-attachments/assets/0dc088b9-a9e1-44ad-b167-702951fde6a3">
+
+## Program directory organization
+
+```
+.
++-- lib.rs
++-- errors.rs
++-- instructions
+|   +-- play.rs
+|   +-- setup_game.rs
+|   +-- mod.rs
++-- state
+|   +-- game.rs
+|   +-- mod.rs
+```
